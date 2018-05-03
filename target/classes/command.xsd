@@ -7,7 +7,9 @@ xmlns:tns="http://stx.com/commands" elementFormDefault="qualified">
     <xs:complexType>
       <xs:sequence>
         <xs:element name= "Ip" type="xs:string"/>
-        <xs:element name= "Port" type="xs:string"/>
+        <xs:element name= "Port" type="xs:int"/>
+        <xs:element name= "Username" type="xs:string"/>
+        <xs:element name= "Password" type="xs:string"/>
         <xs:element name= "Command" type="xs:string"/>
       </xs:sequence>  
     </xs:complexType>
