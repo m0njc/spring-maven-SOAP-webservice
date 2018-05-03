@@ -16,10 +16,10 @@ public class CommandEndpoint {
   @PayloadRoot(namespace = "http://stx.com/commands", localPart = "GetCommandRequest")
   @ResponsePayload
   public GetCommandResponse processCourseDetailsRequest(@RequestPayload GetCommandRequest request) {
-    GetCommandResponse response = new GetCommandResponse();
-    request.getIp()   
+    GetCommandResponse response = new GetCommandResponse();   
     response.setStatusCode(0);
     response.setStatusDescription("SUCCESS");
+    response.setResult("http://"+request.getIp()+":"+request.getPort()+" >>> "+request.getCommand());
     
     
     return response;
