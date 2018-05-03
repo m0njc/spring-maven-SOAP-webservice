@@ -1,0 +1,8 @@
+com\stx\commands\GetCommandRequest.class
+com\streamworx\ws\SpringBootSoapWebServicesApplication.class
+com\stx\commands\package-info.class
+com\streamworx\ws\command\CommandEndpoint.class
+com\streamworx\ws\command\WebServiceConfig.class
+com\streamworx\ws\command\CommandResponse.class
+com\stx\commands\GetCommandResponse.class
+com\stx\commands\ObjectFactory.class
